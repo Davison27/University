@@ -1,0 +1,31 @@
+package p0;
+
+import java.util.ArrayList;
+
+public class Programacion extends Espectaculo{
+	
+	ArrayList<Espectaculo> ListaEspectaculos;
+	
+	
+	
+	public Programacion() {
+		ListaEspectaculos = new ArrayList<Espectaculo>();
+	}
+	
+	public void programarEspectaculo() {
+		ListaEspectaculos.add();
+		ListaEspectaculos.add();
+		ListaEspectaculos.add();
+		ListaEspectaculos.add();
+		ListaEspectaculos.add();
+		ListaEspectaculos.add();
+	}
+	
+	public void verEspectaculos() {
+		
+	}
+	
+	public void imprimirEventos() {
+		
+	}
+}

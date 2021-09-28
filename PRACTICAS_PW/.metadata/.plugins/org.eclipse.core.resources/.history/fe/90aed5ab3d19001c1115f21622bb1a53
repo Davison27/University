@@ -1,0 +1,27 @@
+package espectaculo;
+
+public interface IEspectaculo {
+	
+	public int getLocalidadesVenta();
+	
+	public int getLocalidadesVendida();
+	
+	public int getFecha();
+	
+	public int getDescripcion();
+	
+	public int getCategoria();
+	
+	
+	public void setLocalidadesVenta();
+	
+	public void setLocalidadesVendida();
+	
+	public void setFecha();
+	
+	public void setDescripcion();
+	
+	public void setCategoria();
+	
+
+}

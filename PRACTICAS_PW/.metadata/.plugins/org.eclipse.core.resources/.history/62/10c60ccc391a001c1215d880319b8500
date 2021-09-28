@@ -1,0 +1,94 @@
+package p0;
+
+import java.util.Date;
+
+public class Espectaculo {
+	
+	private String titulo_;
+	
+	private int categoria_;
+	
+	private String descripcion_;
+	
+	private Date fecha_;
+	
+	private int ventas_;
+	
+	private int vendidas_;
+	
+	
+	
+	public Espectaculo() {
+		
+	}
+	
+	public Espectaculo(String titulo, int categoria, String descripcion) {
+		
+	}
+	
+	
+	
+	public void setLocalidadesVenta(int ventas) {
+		this.ventas_=ventas;
+	}
+	
+	public void setLocalidadVendida(int vendidas) {
+		this.vendidas_=vendidas;
+	}
+	
+	public void setFecha(Date fecha) {
+		this.fecha_=fecha;
+	}
+	
+	public void setDescripcion(String descripcion) {
+		this.descripcion_=descripcion;
+	}
+	
+	public void setCategoria(int categoria) {
+		this.categoria_=categoria;
+	}
+	
+	public void setTitulo(String titulo) {
+		this.titulo_=titulo;
+	}
+	
+	
+	
+	
+	public int getLocalidadesVenta() {
+		return this.ventas_;
+	}
+	
+	
+	public int getLocalidadesVendida() {
+		return this.vendidas_;
+	}
+	
+	public Date getFecha() {
+		return this.fecha_;
+	}
+	
+	public String getDescripcion() {
+		return this.descripcion_;
+	}
+	
+	public int getCategoria() {
+		return this.categoria_;
+	}
+	
+	public String getTitulo() {
+		return this.titulo_;
+	}
+	
+	public String toString() {
+		return "Titulo= "+this.titulo_+
+				"Categoria= "+this.categoria_+
+				"Descripción= "+this.descripcion_+
+				"Fecha= "+this.fecha_+
+				"Ventas= "+this.ventas_+
+				"Vendidas= "+this.vendidas_;
+	}
+
+	
+	
+}

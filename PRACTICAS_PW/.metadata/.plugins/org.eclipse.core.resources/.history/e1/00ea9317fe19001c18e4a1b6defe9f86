@@ -1,0 +1,49 @@
+package p0;
+
+import java.util.ArrayList;
+import java.util.Date;
+
+public class Programacion extends Espectaculo{
+	
+	ArrayList<Espectaculo> ListaEspectaculos;
+	
+	
+	
+	public Programacion() {
+		ListaEspectaculos = new ArrayList<Espectaculo>();
+	}
+	
+	public void programarEspectaculo(Espectaculo titulo, Espectaculo categoria, Espectaculo descripcion, Espectaculo fecha, Espectaculo ventas, Espectaculo vendidas) {
+		ListaEspectaculos.add(titulo);
+		ListaEspectaculos.add(categoria);
+		ListaEspectaculos.add(descripcion);
+		ListaEspectaculos.add(fecha);
+		ListaEspectaculos.add(ventas);
+		ListaEspectaculos.add(vendidas);
+		
+	}
+	
+	public ArrayList<Espectaculo> verEspectaculos() {
+		return ListaEspectaculos;
+	}
+	
+	public void imprimirEventos() {
+		
+	}
+	
+	public ArrayList<Espectaculo> verTitulos(){
+		
+	}
+	
+	public boolean eliminarEspectaculo(Espectaculo titulo) {
+		if(ListaEspectaculos.(titulo)) {
+			ListaEspectaculos.remove(titulo);
+			return true;
+		}
+		
+		else{
+			return false;
+		}
+		
+	}
+}

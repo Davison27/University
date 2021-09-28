@@ -1,0 +1,26 @@
+package espectaculo;
+
+public class Espectaculo implements IEspectaculo{
+	
+	private String titulo;
+	
+	private int categoria;
+	
+	private String descripcion;
+	
+	private Date fecha;
+	
+	private int ventas;
+	
+	private int vendidas;
+	
+	
+	
+	public Espectaculo() {
+		
+	}
+	
+	public Espectaculo(String titulo, int categoria, String descripcion) {
+		
+	}
+}
