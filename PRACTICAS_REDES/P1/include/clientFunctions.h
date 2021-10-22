@@ -19,4 +19,8 @@
 
 using namespace std;
 
+void LogInInfoMessage();
+void OptionsInfoMessage();
+void startingGameInterface();
+
 #endif
