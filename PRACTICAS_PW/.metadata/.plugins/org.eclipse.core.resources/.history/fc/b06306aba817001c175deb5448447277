@@ -1,5 +1,0 @@
-package espectaculo;
-
-public interface IEspectaculo {
-
-}
