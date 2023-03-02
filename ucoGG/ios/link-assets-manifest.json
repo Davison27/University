@@ -1,0 +1,49 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/BeaufortforLOL-Bold.ttf",
+      "sha1": "d65c211c5c57f4780656e826121c85ffd1fc29f1"
+    },
+    {
+      "path": "src/assets/fonts/BeaufortforLOL-BoldItalic(1).ttf",
+      "sha1": "c0132b7c8ba73d1b9dfa0238353f05be68efc2a0"
+    },
+    {
+      "path": "src/assets/fonts/BeaufortforLOL-BoldItalic.ttf",
+      "sha1": "c0132b7c8ba73d1b9dfa0238353f05be68efc2a0"
+    },
+    {
+      "path": "src/assets/fonts/BeaufortforLOL-Heavy.ttf",
+      "sha1": "2f34642d8fb8963871adec23c15d9882237e2757"
+    },
+    {
+      "path": "src/assets/fonts/BeaufortforLOL-HeavyItalic.ttf",
+      "sha1": "edd574b37a9daafea93df5fae718c4eb682bb59a"
+    },
+    {
+      "path": "src/assets/fonts/BeaufortforLOL-Italic.ttf",
+      "sha1": "bb7b24118192428c7fe65bc0897aab335ebef6ae"
+    },
+    {
+      "path": "src/assets/fonts/BeaufortforLOL-Light.ttf",
+      "sha1": "43e3c937d387d8e8f840c82dcf9f6644a00d0de1"
+    },
+    {
+      "path": "src/assets/fonts/BeaufortforLOL-LightItalic.ttf",
+      "sha1": "da871f716e4045284174f6d186934e1d0192edcb"
+    },
+    {
+      "path": "src/assets/fonts/BeaufortforLOL-Medium.ttf",
+      "sha1": "09d958314532a377550a6ed6e57281fd09cc6221"
+    },
+    {
+      "path": "src/assets/fonts/BeaufortforLOL-MediumItalic.ttf",
+      "sha1": "91d51fff67b1a2c1d562cd00e3db5c6df861b18f"
+    },
+    {
+      "path": "src/assets/fonts/BeaufortforLOL-Regular.ttf",
+      "sha1": "3f679edb82c155b2a6add4ea5cd9fa422df114d3"
+    }
+  ]
+}
